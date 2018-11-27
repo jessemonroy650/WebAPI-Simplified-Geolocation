@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class=height100percent>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Try Geolocation</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="geo.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body class=height100percent>
+
+    <div><button id=stopWatch>Stop Watch</button></div>
+
+    <div class=center>latitude: <span id=lat></span><br>longitude: <span id=lon></span></div>
+
+    <div> Message: <span id=message></span></div>
+
+    <div class="copyright">Created by Jesus Monroy, Jr. &copy; 2018</div>
+</body>
+    <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', app.onDOMContentLoaded, false);
+    document.addEventListener('deviceready', app.onDeviceReady, false);
+    </script>
+</html>

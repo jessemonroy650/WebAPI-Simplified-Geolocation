@@ -1,0 +1,23 @@
+//
+//
+body {margin:0px;font-size:large;}
+.hidden {visibility:collapse;display:none;}
+.expose {visibility:visible;display:block;} /* Here for completeness only. */
+.height100percent {height:100%} 
+.copyright {padding:5px;align:left;font-style:italic;font-size:small;}
+.spacer {margin:0.5em;}
+.center {margin:auto;text-align:center;}
+#header {margin:0;padding:0;}
+#exitApp {margin:1em;float:right;}
+/* app specific - background colors */
+.r {background-color:hsl(0,25%,75%);}   /* pastel-red */
+.g {background-color:hsl(135,25%,75%);} /* pastel-green */
+.b {background-color:hsl(225,25%,75%);} /* pastel-blue */
+.a {background-color:hsl(45,25%,75%);}  /* pastel-gold */
+.p {background-color:hsl(270,25%,75%);} /* pastel-purple */
+/* */
+.lightred {background-color:#ffbbbb;} /* pastel-red */
+.lightgreen {background-color:#bbffbb;} /* pastel-green */
+.lightblue {background-color:#bbbbff;} /* pastel-blue */
+.lightgold {background-color:#ffffbb;} /* pastel-gold */
+.lightpurple {background-color:#ffbbff;} /* pastel-purple */
