@@ -1,2 +1,2 @@
-# try-geolocation
-This app uses the webbrowser-based geolocation.
+# WebAPI Simplified Geolocation
+A simplified example for WebAPI Geolocation. This example uses less CSS, less Javascript. 
